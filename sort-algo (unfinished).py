@@ -1,11 +1,6 @@
 # sorting algorithm
 
-# let's start by defining some basic variables
-# 0-9 and a-z
-digits = '0123456789'
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
-
-# create a bunch of lists defined by letters and digits
+# start by creating a bunch of lists defined by letters and digits
 zero=[]; one=[]; two=[]; three=[]; four=[]; five=[]; six=[]; seven=[]; eight=[]; nine=[]
 a=[]; b=[]; c=[]; d=[]; e=[]; f=[]; g=[]; h=[]; i=[]; j=[]; k=[]; l=[]; m=[]; n=[]; o=[]; p=[]; q=[]; r=[]; s=[]; t=[]; u=[]; v=[]; w=[]; x=[]; y=[]; z=[]
 
