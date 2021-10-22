@@ -1,6 +1,7 @@
 all_letters = 'abcdefghijklmnopqrstuvwxyz'
 all_digits = '0123456789'
 all_operators = '+-*/^'
+whitespace = ' \t\n'
 
 digits = []
 operators = []
@@ -16,7 +17,7 @@ while True:
             digits.append(token)
         elif token in all_operators:
             operators.append(token)
-        elif token == ' ':
+        elif token in whitespace:
             pass
         elif token in all_letters:
             raise Exception('This is a calculator...?')
