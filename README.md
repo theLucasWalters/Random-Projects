@@ -23,11 +23,11 @@ Input:
 
 Output:
 ```
-['o', 'a', 'i', 'A', 'u', 'u', 'i', 'a']
-['T', 'd', 'y', 's', 'g', 's', 't', 't', 'h', 'm', 'y', 'b', 'r', 't', 'h', 'd', 'y']
-['1', '7']
-[',', '.']
-5 spaces
+['o', 'a', 'i', 'A', 'u', 'u', 'i', 'a'] # vowels
+['T', 'd', 'y', 's', 'g', 's', 't', 't', 'h', 'm', 'y', 'b', 'r', 't', 'h', 'd', 'y'] # consonants
+['1', '7'] # integers
+[',', '.'] # others
+5 spaces # spaces count
 ```
 
 ### Sort-Algo (unfinished)
