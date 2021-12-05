@@ -23,10 +23,10 @@ def main():
         else:
             others.append(char)
 
-    print(vowels)
-    print(consonants)
-    print(integers)
-    print(others)
+    print(f'Vowels:      {vowels}')
+    print(f'Consonants:  {consonants}')
+    print(f'Integers:    {integers}')
+    print(f'Other Chars: {others}')
     print(f'{spaces} spaces')
 
 if __name__ == "__main__":
