@@ -21,9 +21,12 @@ def convert(num: float):
 
 # main function
 def main():
-    number = float(input('Enter a number to convert > '))
+    number = input('Enter a number to convert > ')
 
-    assert type(number) == float, "Must be a number, cannot include letters or symbols."
+    try:
+        number = float(number)
+    except:
+        assert type(number) == float, "Must be a number, cannot include letters or symbols."
 
     print(convert(number))
 
