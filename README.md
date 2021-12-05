@@ -1,37 +1,27 @@
-# These are my random projects
+# Random Projects
 This repository is a collection of programs I just wanted to build.
 
 A lot of them will probably be unfinished (marked with `(unfinished)`),
 but I'll try to keep working on them when I'm not busy.
 
-# Projects details
-All projects are built in Python and are executed in the terminal
+# Details
+All of these projects are built to be executed in a command line.
+Some use `if __name__ == "__main__"` notation, but not all do yet.
+
+## Specific Projects
 
 ### Calculator (unfinished)
-This will be a basic calculator program. It takes an input (i.e. `5 + 5`) and will display the result (when finished).\
-Currently, all it does is parse the input, sort the integers and operators into arrays, and print them out.\
-It doesn't support floating point numbers at the moment, but will in the future
+My flawed attempt a creating a CLI calculator. It doesn't really work at the moment, but I'll probably figure it out eventually.
 
-### Sort-Chars
-This is a very basic sorting algorithm. It takes each letter, number, space, and other characters and sorts them into arrays in the order they appeared.\
-The specific arrays are `vowels`, `consonants`, `integers`, and `others`. It also prints the number of spaces.
-<br><br>
-An example input and output would look as follows:\
-Input:
+### Scientific Notation (unfinished)
+The file isn't marked as unfinished, but it's far from being complete.
+It works with small numbers (i.e. `123` or `0.123` convert just fine), but breaks with bigger numbers (`345,600,000` doesn't work).
 
-`> Today is August 17th, my birthday.`
+### Sort Characters
+This is a simpler version of the algorithm in `sort-algo`.
+It works by parsing the input and sorting each character into one of 5 categories: `vowels`, `consonants`, `integers`, `others`, and `spaces`.
 
-Output:
-```
-['o', 'a', 'i', 'A', 'u', 'u', 'i', 'a'] # vowels
-['T', 'd', 'y', 's', 'g', 's', 't', 't', 'h', 'm', 'y', 'b', 'r', 't', 'h', 'd', 'y'] # consonants
-['1', '7'] # integers
-[',', '.'] # others
-5 spaces # spaces count
-```
-
-### Sort-Algo (unfinished)
-This is my favorite project so far and will likely have the most commits of the entire repository until I find a new obsession.\
-My goal is to create an algorithm that will quickly and efficiently sort any user input by first 0-9 then a-z.
-At the moment, what I have is fairly basic and only sorts by the first letter/number of an input without regard to whitespaces.
-I plan to use some variation of a QuickSort algorithm.
+### Sorting Algorithm (unfinished)
+This is one of my favorites.
+I want to implement a version of a Quicksort algorithm to sort words alphebetically and spit them out.
+I have a rough version at the moment, but it's not quite done yet.
