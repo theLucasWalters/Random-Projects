@@ -7,12 +7,15 @@ digits = []
 operators = []
 
 while True:
-    expression = input('> ')
+    print("Type 'done' when you're finished.")
+    text = input('> ')
 
-    if expression == 'done':
+    if text == 'done':
         break
+    elif text == 'help':
+        print("Help")
 
-    for token in expression:
+    for token in text:
         if token in all_digits:
             digits.append(token)
         elif token in all_operators:
@@ -24,5 +27,5 @@ while True:
         else:
             raise Exception(f"Unknown token: '{token}'")
 
-print(digits)
-print(operators)
+    print(digits)
+    print(operators)
